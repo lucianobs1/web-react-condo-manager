@@ -4,9 +4,6 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme['gray-900']};
 
   padding: 1.5rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const NavContainer = styled.nav`

@@ -20,4 +20,5 @@ export const GlobalStyle = createGlobalStyle`
   button, a {
     cursor: pointer;
   }
+
 `;

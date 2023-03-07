@@ -13,7 +13,7 @@ export function Header() {
 
         <NavLinks>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/open-call">Open Call</NavLink>
+          <NavLink to="/open-new-call">Open New Call</NavLink>
           <NavLink to="/view-calls">View Calls</NavLink>
           <NavLink to="/register-condo">Register Condo</NavLink>
         </NavLinks>

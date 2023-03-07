@@ -1,13 +1,12 @@
+import { Header } from '../../components/Header';
 import { Container } from './styles';
 
 export function Home() {
   return (
     <Container>
-      <img src="" />
-
-      <main>
-        <h3></h3>
-      </main>
+      <div>
+        <h1>hom</h1>
+      </div>
     </Container>
   );
 }

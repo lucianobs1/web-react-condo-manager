@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 64rem;
   width: 100%;
-  margin: 2rem auto;
+  margin: 0 auto;
 
   > header {
     text-align: center;
-    margin: 2rem;
+    margin-bottom: 2rem;
   }
 
   a {

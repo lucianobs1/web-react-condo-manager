@@ -70,5 +70,9 @@ export const Form = styled.form`
     font-weight: bold;
     margin-top: 8px;
     transition: background-color 0.5s;
+
+    &:hover {
+      background: ${(props) => props.theme['green-700']};
+    }
   }
 `;

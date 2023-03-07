@@ -32,7 +32,7 @@ export function OpenNewCall() {
 
           <textarea
             name="description"
-            placeholder="Describe call here"
+            placeholder="Write the call here"
             onChange={(e) => setDescribe(e.target.value)}
           />
 

@@ -1,20 +1,29 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  max-width: 90rem;
-  width: 100%;
   padding: 1.5rem 1rem;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const NavContainer = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
+
+  img {
+    margin-right: 4rem;
+  }
 `;
 
 export const NavLinks = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 
   a {

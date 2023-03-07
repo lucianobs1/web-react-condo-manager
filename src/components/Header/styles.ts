@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme['gray-900']};
   padding: 1.5rem 1rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
 `;
 
 export const NavContainer = styled.nav`

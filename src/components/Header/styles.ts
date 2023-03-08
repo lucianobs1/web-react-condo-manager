@@ -40,11 +40,11 @@ export const NavLinks = styled.div`
     border-bottom: 3px solid transparent;
 
     &:not(.active):hover {
-      border-bottom: 3px solid ${(props) => props.theme['green-500']};
+      border-bottom: 3px solid ${(props) => props.theme['blue-500']};
     }
 
     &.active {
-      color: ${(props) => props.theme['green-500']};
+      color: ${(props) => props.theme['blue-500']};
     }
   }
 `;

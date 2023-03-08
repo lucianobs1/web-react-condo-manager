@@ -56,14 +56,14 @@ export const Form = styled.form`
     border-radius: 8px;
     border: none;
     padding: 1rem;
-    background: ${(props) => props.theme['green-500']};
+    background: ${(props) => props.theme['blue-500']};
     color: #fff;
     font-weight: bold;
     margin-top: 1.5rem;
     transition: background-color 0.5s;
 
     &:hover {
-      background: ${(props) => props.theme['green-700']};
+      background: ${(props) => props.theme['blue-900']};
     }
   }
 `;

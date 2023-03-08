@@ -13,7 +13,7 @@ export const Container = styled.div`
   a {
     display: inline-block;
     text-decoration: none;
-    color: ${(props) => props.theme['green-300']};
+    color: ${(props) => props.theme['blue-500']};
   }
 `;
 
@@ -31,7 +31,7 @@ export const CallHeader = styled.header`
   padding: 1rem;
 
   span {
-    color: ${(props) => props.theme['green-300']};
+    color: ${(props) => props.theme['blue-500']};
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -67,7 +67,7 @@ export const CallFooter = styled.footer`
     gap: 0.5rem;
 
     color: ${(props) => props.theme['gray-100']};
-    background: ${(props) => props.theme['green-700']};
+    background: ${(props) => props.theme['blue-800']};
     padding: 0.5rem 1rem;
     border-radius: 8px;
   }

@@ -39,7 +39,7 @@ export const ContentContainer = styled.div`
 
     span {
       display: inline-block;
-      background: ${(props) => props.theme['green-700']};
+      background: ${(props) => props.theme['blue-700']};
       border-radius: 99999px;
       padding: 0.5rem;
       font-size: 0.8rem;
@@ -73,14 +73,14 @@ export const SocialNetworkList = styled.ul`
     align-items: center;
     justify-content: center;
     color: ${(props) => props.theme['gray-100']};
-    background: ${(props) => props.theme['green-700']};
+    background: ${(props) => props.theme['blue-700']};
     height: 36px;
     width: 36px;
     border-radius: 50%;
     transition: background-color 0.5s;
 
     &:hover {
-      background: ${(props) => props.theme['green-500']};
+      background: ${(props) => props.theme['blue-800']};
     }
   }
 `;

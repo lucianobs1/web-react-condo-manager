@@ -65,14 +65,14 @@ export const Form = styled.form`
   }
 
   button {
-    background: ${(props) => props.theme['green-500']};
+    background: ${(props) => props.theme['blue-500']};
     color: #fff;
     font-weight: bold;
     margin-top: 0.5rem;
     transition: background-color 0.5s;
 
     &:hover {
-      background: ${(props) => props.theme['green-700']};
+      background: ${(props) => props.theme['blue-800']};
     }
   }
 `;

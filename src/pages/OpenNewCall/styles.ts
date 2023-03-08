@@ -68,7 +68,7 @@ export const Form = styled.form`
     background: ${(props) => props.theme['green-500']};
     color: #fff;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     transition: background-color 0.5s;
 
     &:hover {

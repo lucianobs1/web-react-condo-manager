@@ -66,7 +66,7 @@ export const CallFooter = styled.footer`
     display: flex;
     gap: 0.5rem;
 
-    color: ${(props) => props.theme['gray-100']};
+    color: ${(props) => props.theme.white};
     background: ${(props) => props.theme['blue-800']};
     padding: 0.5rem 1rem;
     border-radius: 8px;

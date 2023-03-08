@@ -20,6 +20,8 @@ export const NavContainer = styled.nav`
 
   img {
     margin-right: 4rem;
+    display: block;
+    height: 26px;
   }
 `;
 

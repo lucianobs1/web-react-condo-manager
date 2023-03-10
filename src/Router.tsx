@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { DefaultLayout } from './layout/DefaultLayout';
+import { Customers } from './pages/Customers';
 import { Home } from './pages/Home';
 import { OpenNewCall } from './pages/OpenNewCall';
 import { RegisterCondo } from './pages/RegisterCondo';
@@ -13,6 +14,7 @@ export function Router() {
         <Route path="/open-new-call" element={<OpenNewCall />} />
         <Route path="/view-calls" element={<ViewCalls />} />
         <Route path="/register-condo" element={<RegisterCondo />} />
+        <Route path="/customers" element={<Customers />} />
       </Route>
     </Routes>
   );

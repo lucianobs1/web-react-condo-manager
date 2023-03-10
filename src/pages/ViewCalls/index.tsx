@@ -15,8 +15,8 @@ export function ViewCalls() {
         <h1>Open Calls</h1>
       </header>
 
-      <NavLink to={'/call/id-call'}>
-        <CallsContainer>
+      <CallsContainer>
+        <NavLink to="/call/id/1">
           <Call>
             <CallHeader>
               <Buildings size={24} />
@@ -39,7 +39,8 @@ export function ViewCalls() {
               </div>
             </CallFooter>
           </Call>
-
+        </NavLink>
+        <NavLink to="/call/id/2">
           <Call>
             <CallHeader>
               <Buildings size={24} />
@@ -63,7 +64,8 @@ export function ViewCalls() {
               </div>
             </CallFooter>
           </Call>
-
+        </NavLink>
+        <NavLink to="/call/id/3">
           <Call>
             <CallHeader>
               <Buildings size={24} />
@@ -87,7 +89,8 @@ export function ViewCalls() {
               </div>
             </CallFooter>
           </Call>
-
+        </NavLink>
+        <NavLink to="/call/id/4">
           <Call>
             <CallHeader>
               <Buildings size={24} />
@@ -112,7 +115,8 @@ export function ViewCalls() {
               </div>
             </CallFooter>
           </Call>
-
+        </NavLink>
+        <NavLink to="/call/id/5">
           <Call>
             <CallHeader>
               <Buildings size={24} />
@@ -135,8 +139,8 @@ export function ViewCalls() {
               </div>
             </CallFooter>
           </Call>
-        </CallsContainer>
-      </NavLink>
+        </NavLink>
+      </CallsContainer>
     </Container>
   );
 }

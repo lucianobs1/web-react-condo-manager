@@ -67,3 +67,7 @@ export const Form = styled.form`
     }
   }
 `;
+
+export const CustomersContainer = styled.ul`
+  display: flex;
+`;

@@ -38,11 +38,12 @@ export const CallHeader = styled.header`
 `;
 
 export const Call = styled.div`
-  background: ${(props) => props.theme['gray-700']};
+  background: ${(props) => props.theme['gray-900']};
   border-radius: 8px;
   height: max-content;
   transition: background-color 0.4s;
   text-align: center;
+  padding: 1rem 0;
 
   &:hover {
     background: ${(props) => props.theme['gray-600']};
